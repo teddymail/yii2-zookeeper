@@ -1,0 +1,30 @@
+{
+    "name": "ethercap/yii2-zookeeper",
+    "description": "ZooKeeper Client For Yii2 Framework",
+    "keywords": [
+        "yii2",
+        "zookeeper",
+        "yii2-zookeeper"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "yuekang",
+            "email": "iyuekang@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ethercap\\yii2zookeeper\\": ""
+        }
+    },
+    "require-dev": {
+        "liron-li/php-zookeeper-ide-helper": "^0.1.0"
+    }
+}
