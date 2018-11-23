@@ -1,5 +1,5 @@
 <?php
-namespace teddymail\yii2zookeeper;
+namespace ethercap\yii2zookeeper;
 use yii\base\Component;
 use yii\base\InvalidArgumentException;
 
