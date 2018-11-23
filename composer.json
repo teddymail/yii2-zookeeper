@@ -1,5 +1,5 @@
 {
-    "name": "ethercap/yii2-zookeeper",
+    "name": "teddymail/yii2-zookeeper",
     "description": "ZooKeeper Client For Yii2 Framework",
     "keywords": [
         "yii2",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ethercap\\yii2zookeeper\\": ""
+            "teddymail\\yii2zookeeper\\": ""
         }
     },
     "require-dev": {
