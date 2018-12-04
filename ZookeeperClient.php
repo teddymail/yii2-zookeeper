@@ -3,7 +3,7 @@ namespace ethercap\yii2zookeeper;
 use yii\base\Component;
 use yii\base\InvalidArgumentException;
 
-class Zookeeper extends Component
+class ZookeeperClient extends Component
 {
     /**
      * @var string zookeeper列表
