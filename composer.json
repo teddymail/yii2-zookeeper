@@ -1,5 +1,5 @@
 {
-    "name": "teddymail/yii2-zookeeper",
+    "name": "ethercap/yii2-zookeeper",
     "description": "ZooKeeper Client For Yii2 Framework",
     "keywords": [
         "yii2",
