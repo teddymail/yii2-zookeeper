@@ -28,6 +28,10 @@ class ZookeeperClient extends Component
         if (empty($this->zookeeperServerList)) {
             throw new InvalidArgumentException('必须配置zookeeper服务列表');
         }
+
+        if (!extension_loaded('zookeeper')) {
+            throw new \RuntimeException('本模块依赖zookeeper扩展！');
+        }
         $this->zookeeper = new \Zookeeper($this->zookeeperServerList);
     }
 
