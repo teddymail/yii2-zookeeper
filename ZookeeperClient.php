@@ -136,12 +136,9 @@ class ZookeeperClient extends Component
 
     public function deleteNode($path)
     {
-        if(!$this->zookeeper->exists($path))
-        {
+        if(!$this->zookeeper->exists($path)) {
             return null;
-        }
-        else
-        {
+        } else {
             return $this->zookeeper->delete($path);
         }
     }
